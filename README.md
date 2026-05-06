@@ -36,7 +36,7 @@ This project implements a **next-generation Telematics Control Unit (TCU)** desi
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - ✅ **Real-time data acquisition** using SPI, UART, and I2C interfaces
 - ✅ **FreeRTOS task scheduler** for concurrent low-latency operations
@@ -80,7 +80,7 @@ tcu-prototype/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - ARM GCC Toolchain (`arm-none-eabi-gcc`)
@@ -107,7 +107,7 @@ openocd -f interface/stlink.cfg -f target/stm32f4x.cfg \
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Unit tests are written to be compatible with **Tessy** test automation:
 
