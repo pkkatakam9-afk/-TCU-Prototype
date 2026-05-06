@@ -76,16 +76,27 @@ tcu-prototype/
 │   └── bsp/
 
 │       ├── board_init.c      # Hardware initialization
+
 │       └── clock_config.c    # Clock tree configuration
+
 ├── include/
+
 │   ├── can_driver.h          # CAN interface definitions
+
 │   ├── spi_driver.h          # SPI interface definitions
+
 │   └── tcu_config.h          # Global system configuration
+
 ├── tests/
+
 │   └── unit/                 # Tessy-compatible unit test stubs
+
 ├── yocto/
+
 │   └── meta-tcu/             # Custom Yocto layer for automotive hardware
+
 └── docs/
+
     └── architecture.md       # Design documentation
 ---
 
