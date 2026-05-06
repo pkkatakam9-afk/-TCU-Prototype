@@ -51,9 +51,11 @@ This project implements a **next-generation Telematics Control Unit (TCU)** desi
 ## 📁 Project Structure
 
 tcu-prototype/
+
 ├── src/ 
 
 │   ├── main.c                # Entry point, scheduler init
+
 │   ├── drivers/
 │   │   ├── can_driver.c      # CAN bus driver
 │   │   ├── spi_driver.c      # SPI peripheral driver
