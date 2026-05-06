@@ -57,15 +57,24 @@ tcu-prototype/
 │   ├── main.c                # Entry point, scheduler init
 
 │   ├── drivers/
+
 │   │   ├── can_driver.c      # CAN bus driver
+
 │   │   ├── spi_driver.c      # SPI peripheral driver
+
 │   │   ├── i2c_driver.c      # I2C peripheral driver
+
 │   │   └── uart_driver.c     # UART communication driver
+
 │   ├── tasks/
 │   │   ├── telemetry_task.c  # Data acquisition & upload task
+
 │   │   ├── fault_task.c      # Fault monitoring task
+
 │   │   └── comms_task.c      # BT/WiFi communication task
+
 │   └── bsp/
+
 │       ├── board_init.c      # Hardware initialization
 │       └── clock_config.c    # Clock tree configuration
 ├── include/
